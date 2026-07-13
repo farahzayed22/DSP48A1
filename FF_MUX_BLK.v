@@ -29,5 +29,4 @@ module FF_MUX_BLK(d,clk,rst,en,q);
             end
         end
     endgenerate
-    
 endmodule
