@@ -1,6 +1,16 @@
 m255
 K4
 z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
 !s11f vlog 2021.1 2021.01, Jan 19 2021
 13
 !s112 1.1
@@ -9,49 +19,85 @@ z2
 !i10f 100
 cModel Technology
 dC:/questasim64_2021.1/examples
+T_opt
+!s110 1783915922
+V;6jTJiL>FhiE8Gf9?j_O42
+04 10 4 work DSP48A1_tb fast 0
+=1-e02be9052af8-6a546592-27b-b58
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
 vDSP48A1
-!s110 1783842666
+Z2 !s110 1783915917
 !i10b 1
 !s100 :64TkXWL@9b@GY?39N3S30
-IB]]Sf3BBUeX]Die<27NZK3
-Z0 dD:/Projects/questasim_projects/Digital_Diploma/DSP/DSP48A1
+Ib8`]VN0`LLe^4S;VIj92B3
+Z3 dD:/Projects/questasim_projects/Digital_Diploma/DSP/DSP48A1
 w1783842658
-8D:/Projects/questasim_projects/Digital_Diploma/DSP/DSP48A1/DSP48A1.v
-FD:/Projects/questasim_projects/Digital_Diploma/DSP/DSP48A1/DSP48A1.v
-!i122 1
+8DSP48A1.v
+FDSP48A1.v
+!i122 12
 L0 1 130
-Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 OL;L;2021.1;73
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
 r1
 !s85 0
 31
-!s108 1783842666.000000
-!s107 D:/Projects/questasim_projects/Digital_Diploma/DSP/DSP48A1/DSP48A1.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Projects/questasim_projects/Digital_Diploma/DSP/DSP48A1/DSP48A1.v|
+Z6 !s108 1783915917.000000
+Z7 !s107 DSP48A1_tb.V|FF_MUX_BLK.v|DSP48A1.v|
+Z8 !s90 -reportprogress|300|DSP48A1.v|FF_MUX_BLK.v|DSP48A1_tb.V|+cover|-covercells|
 !i113 0
-Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z4 tCvgOpt 0
+Z9 !s102 +cover -covercells
+Z10 o+cover -covercells -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
 n@d@s@p48@a1
+vDSP48A1_tb
+R2
+!i10b 1
+!s100 on>=Y7Hjb`9X3_PelN<D00
+IG7LfN<4kNSL<:<<Jf5age2
+R3
+w1783915906
+8DSP48A1_tb.V
+FDSP48A1_tb.V
+!i122 12
+L0 1 136
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+n@d@s@p48@a1_tb
 vFF_MUX_BLK
-!s110 1783842631
+R2
 !i10b 1
 !s100 MMg5^I3NW4bcV?Sd4hBF42
-IzBg8TennjB_E<7z@m4Zf^0
-R0
+I3T]EXV8M`_Y@2]_UfPbR13
+R3
 w1783841875
-8D:/Projects/questasim_projects/Digital_Diploma/DSP/DSP48A1/FF_MUX_BLK.v
-FD:/Projects/questasim_projects/Digital_Diploma/DSP/DSP48A1/FF_MUX_BLK.v
-!i122 0
+8FF_MUX_BLK.v
+FFF_MUX_BLK.v
+!i122 12
 L0 1 33
-R1
-R2
+R4
+R5
 r1
 !s85 0
 31
-!s108 1783842631.000000
-!s107 D:/Projects/questasim_projects/Digital_Diploma/DSP/DSP48A1/FF_MUX_BLK.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Projects/questasim_projects/Digital_Diploma/DSP/DSP48A1/FF_MUX_BLK.v|
+R6
+R7
+R8
 !i113 0
-R3
-R4
+R9
+R10
+R1
 n@f@f_@m@u@x_@b@l@k

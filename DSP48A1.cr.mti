@@ -1,0 +1,15 @@
+D:/Projects/questasim_projects/Digital_Diploma/DSP/DSP48A1/FF_MUX_BLK.v {1 {vlog -work work -vopt -stats=none D:/Projects/questasim_projects/Digital_Diploma/DSP/DSP48A1/FF_MUX_BLK.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module FF_MUX_BLK
+
+Top level modules:
+	FF_MUX_BLK
+
+} {} {}} D:/Projects/questasim_projects/Digital_Diploma/DSP/DSP48A1/DSP48A1.v {1 {vlog -work work -vopt -stats=none D:/Projects/questasim_projects/Digital_Diploma/DSP/DSP48A1/DSP48A1.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module DSP48A1
+
+Top level modules:
+	DSP48A1
+
+} {} {}}
