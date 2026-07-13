@@ -131,6 +131,7 @@ module DSP48A1_tb();
 
     end
     initial begin
-        $monitor("Time=%0t, A=%h, B=%h, BCIN=%h,BCOUT=%h, D=%h, C=%h, CARRYIN=%b, OPMODE=%b, PCIN=%h, M=%h, P=%h,PCOUT=%h, CARRYOUT=%b, CARRYOUTF=%b", $time, A, B, BCIN,BCOUT, PCOUT, D, C, CARRYIN, OPMODE, PCIN, M, P, PCOUT, CARRYOUT, CARRYOUTF);
+        $monitor("Time=%0t, A=%h, B=%h, BCIN=%h,BCOUT=%h, D=%h, C=%h, CARRYIN=%b, OPMODE=%b, PCIN=%h, M=%h, P=%h,PCOUT=%h, CARRYOUT=%b, CARRYOUTF=%b"
+        , $time, A, B, BCIN,BCOUT, PCOUT, D, C, CARRYIN, OPMODE, PCIN, M, P, PCOUT, CARRYOUT, CARRYOUTF);
     end
 endmodule 
